@@ -1,0 +1,47 @@
+#counter_header{
+    color : black;
+}
+
+div{
+    text-align: center;
+    margin : 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#div_cnt1 {
+    align-content: center;
+    margin:1%;
+    background-color: rgb(226, 191, 234);
+    width : 500px;
+    padding : 1%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#div_cnt2 {
+    align-content: center;
+    margin:1%;
+    background-color: #797979;
+    width : 500px;
+    padding : 3%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+button{
+    padding : 2%;
+    width : max-content;
+    background-color: blueviolet;
+    border-color: blueviolet;
+    color: white;
+    font-size: large;
+    margin: 10px;
+    box-shadow: none;
+    border-radius: 10px;
+}
